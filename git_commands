@@ -1,4 +1,9 @@
 git status
+git add .
+
+
+
+
 
 git add #filename.sf
 git commit -m "updated: "
