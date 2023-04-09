@@ -1,0 +1,7 @@
+git status
+
+git add #filename.sf
+git commit -m "updated: "
+git push origin main
+ 
+

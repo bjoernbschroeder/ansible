@@ -1,0 +1,8 @@
+# update all servers on inventory list
+ansible all -m apt -a update_cache=true --become --ask-become-pass
+
+# upgrade all servers on inventory list
+ansible all -m apt -a "upgrade=dist" --become --ask-become-pass
+
+# install application on remote system i.e. vim-nox
+ansible all -m apt -a name=vim-nox --become --ask-become-pass
